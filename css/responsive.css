@@ -1,0 +1,158 @@
+
+
+@media(max-width:1399px){
+    
+}
+@media(max-width:1199px){
+    
+
+}
+@media(max-width:991px){
+    .banner-section {
+        padding: 100px 0px;
+    }
+    .fixed-top {
+        position: unset;
+    }
+    p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .explore-section .explore-content h1 {
+        font-size: 62px;
+        letter-spacing: 1px;
+    }
+    .tour-section h2 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .tour-section p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width:767px){
+    .qoute-content h4 {
+        font-size: 20px;
+    }
+    .banner-section h1 {
+        font-size: 52px;
+        letter-spacing: 3px;
+    }
+    .fixed-top {
+        position: unset;
+    }
+    .card-title {
+        font-size: 17px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .event-section img {
+        box-shadow: 7px 7px 0px #F4F5F9;
+    }
+    .event-section .card .btn-card {
+        font-size: 15px;
+        letter-spacing: 0px;
+    }
+    .explore-section .explore-content h1 {
+        font-size: 42px;
+        letter-spacing: 1px;
+        line-height: 50px;
+    }
+    .explore-section .explore-content p {
+        font-size: 16px;
+        margin: 15px 0px;
+    }
+    .tour-section h2 {
+        font-size: 19px;
+    }
+    .tour-section p {
+        font-size: 14px;
+        line-height: 23px;
+        margin-bottom: 30px;
+    }
+    .tour-section .btn-card {
+        padding: 12px 16px;
+        font-size: 16px;
+    }
+}
+@media(max-width:575px){
+    header .navbar-light .navbar-nav .nav-link {
+        border: none;
+        margin: 3px 0px;
+        padding: 0px;
+    }
+    header .navbar-light .navbar-nav .nav-link:hover{
+        border: none;
+        color: #FB2257;
+    }
+    header .navbar-light .navbar-nav .actives {
+        border: none;
+    }
+    header .navbar-light .navbar-nav .actives:hover {
+        border: none;
+    }
+    .fixed-top {
+        position: unset;
+    }
+    .banner-section {
+        padding: 180px 0px 100px;
+    }
+    .banner-section h4 {
+        font-size: 24px;
+        margin: 8px 0px;
+    }
+    .banner-section h1 {
+        font-size: 32px;
+        letter-spacing: 3px;
+        margin: 0px;
+    }
+    .event-section .card-body {
+        padding: 20px 0px;
+    }
+    p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .event-section .card .btn-card {
+        font-size: 14px;
+    }
+    .event-section .px-5 {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+    .qoute-content h4 {
+        font-size: 18px;
+    }
+    .explore-content {
+        text-align: center;
+    }
+    .explore-content span{
+        margin: 0 auto;
+    }
+    .tour-section {
+        padding: 30px 0px;
+        text-align: center;
+    }
+    .tour-section span {
+        margin: 0 auto;
+    }
+    .tour-section p{
+        margin-top: 20px;
+    }
+    .tour-content {
+        margin-bottom: 30px;
+    }
+    .tour-section .tour-img img{
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+    }
+@media(max-width:400px){
+
+}

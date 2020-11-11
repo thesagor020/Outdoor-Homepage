@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.bg{
+    background: #000000;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 68px;
+}
+h1 span {
+    color: #21B573 !important;
+    font-size: 56px !important;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #858482;
+    line-height: 32px;
+}
+.btn {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 11px 31px;
+    border-radius: 30px;
+    transition-duration: .5s;
+    background: #FB2257;
+    color: #fff;
+    border: 1px solid #FB2257;
+    margin-top: 20px;
+}
+.btn:hover{
+    background: transparent;
+    border: 1px solid #FB2257;
+    color: #ffffff;
+}
+.heading{
+    text-align: center;
+}
+.heading h2{
+    font-size: 32px;
+    color: #413960;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+/*****header section*****/
+header {
+    background: #ff4242ab url(..//images/banner.jpg) center top no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+}
+header nav h2 {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+}
+header h2 span {
+    font-size: 20px;
+    display: block;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+header .bg-light{
+        background: #0000008a!important;
+        z-index: 1;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    transition: .6s;
+    padding: 10px  12px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+}
+header .navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+}
+header .navbar-light .navbar-nav .actives{
+    color: #fff;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+}
+header .navbar-light .navbar-nav .nav-item {
+   margin: 0 5px;
+}
+
+.banner-section{
+    padding: 160px 0px;
+}
+.banner-section h4{
+    font-size: 28px;
+    font-style: italic;
+    color: #fff;
+    margin: 15px 0px;
+    font-weight: 400;
+}
+.banner-section span{
+    width: 70px;
+    height: 5px;
+    background: #FB2257;
+    margin: 0 auto;
+    display: block;
+}
+.banner-section h1{
+    font-size: 62px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+
+
+/****** banner section end*****/
+.qoute-section{
+    background: #F4F5F9;
+    padding: 50px 0px;
+}
+.qoute-content h4 {
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+}
+.qoute-content p{
+font-size: 20px;  
+font-weight: 400; 
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+/****qoute section end***/
+
+.event-section{
+    padding: 60px 0px;
+}
+.event-section .heading{
+    padding-bottom: 40px;
+}
+.event-section .heading h2{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.event-section span {
+    width: 70px;
+    height: 4px;
+    background: #FB2257;
+    display: block;
+    margin: 0 auto;
+}
+.event-section img {
+    box-shadow: 12px 12px 0px #F4F5F9;
+    border-radius: 10px;
+}
+.event-section .card{
+    border: none;
+}
+.event-section .card-body {
+    padding: 40px 0px;
+    text-align: center;
+}
+.event-section .card .btn-card {
+    color: #FB2257;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    padding: 10px 15px;
+    transition: .3s;
+    border-radius: 30px;
+}
+.event-section .card .btn-card:hover {
+    border: 1px solid #FB2257;
+    color: #000;
+}
+.event-section .card i {
+    margin-left: 5px;
+}
+
+/******event-section end******/
+
+.explore-section {
+    background: #000000b3 url(../images/explore.jpg) center bottom no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+}
+.explore-section .explore-content h1 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+.explore-section .explore-content p{
+    font-size: 20px;
+    color: #fff;
+    margin: 20px 0px;
+
+}
+.explore-section .explore-content span{
+    width: 70px;
+    height: 5px;
+    background: #FB2257;
+    display: block;
+}
+.explore-section .btn-card{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    padding: 10px 15px;
+    transition: .3s;
+    border-radius: 30px;
+}
+.explore-section .btn-card:hover {
+    border: 1px solid #FB2257;
+    color: #fff;
+}
+/****** explore-section ******/
+
+.tour-section{
+    padding: 80px 0px;
+}
+.tour-section h2{
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.tour-section span{
+    width: 70px;
+    height: 5px;
+    background: #FB2257;
+    display: block;
+    margin-bottom: 20px;
+}
+.tour-section p{
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+.tour-section .btn-card{
+    padding: 14px 20px;
+    background: #FB2257;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+    border: 1px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.tour-section .btn-card:hover{
+    background: transparent; 
+    color: #000; 
+    border: 1px solid #FB2257;
+}
+/*****tour-section-end*****/
+footer{
+    padding: 40px 0px 10px;
+    background: #000000;
+}
+footer .footer-content{
+    text-align: center;
+}
+footer .footer-content h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+footer .footer-content p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+footer .footer-content a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+footer .footer-content a:hover{
+    color: #FB2257;
+}
